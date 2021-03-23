@@ -9,8 +9,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <fuse.bom.version>7.8.0.fuse-sb2-780038-redhat-00001</fuse.bom.version>
-      </properties>
+        <!--fuse.bom.version>7.8.0.fuse-sb2-780038-redhat-00001</fuse.bom.version-->
+    </properties>
     <dependencyManagement>
         <dependencies>
 
@@ -95,11 +95,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-
-
         </plugins>
-
-
     </build>
     <repositories>
         <repository>
@@ -137,6 +133,4 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-
-
 </project>
